@@ -76,7 +76,7 @@ always@(*) begin
     next_state=IDLE;
     case(state)
       IDLE:
-        if((qp_r != qp)&&(qp>6))
+        if((qp_r != qp)&&(qp>6 || qp==6))
           next_state=MODE_STATE;
         else
           next_state=IDLE;
