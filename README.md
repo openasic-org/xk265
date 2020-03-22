@@ -9,16 +9,20 @@ H.265 Video Encoder IP Core 是开源的H.265硬件视频编码器，实现了H.
 * Bitdepth 8
 * 4K@30fps, 400MHz
 * GOP: I/P
+* CTU: 64x64
 * CU: 8x8~64x64
 * PU: 4x4~64x64
 * TU: 4x4/8x8/16x16/32x32
-* 1/4 Sub-pixel 
-* Search range 32
+* 1/4 Sub-pixel
+* Search range 64
 * All 35 Intra prediction mode
 * CABAC
 * Deblocking Filter
-* SAO
-* Rate control: CBR/VBR (Software)
+* SAO (Sample Adaptive Offset)
+* Rate control: CBR/VBR (Software-based)
+* Rate control: CTU level (Hardware-based)
+* SKIP/MERGE
+* Intra CTU in Inter frame
 
 > ### 关于VIP Lab
 
