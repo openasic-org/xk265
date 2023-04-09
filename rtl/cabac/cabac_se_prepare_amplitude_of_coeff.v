@@ -1036,7 +1036,7 @@ begin
         4'd1 :
         begin
             coeff_15_r<=coeff_l2_15_r;
-            coeff_14_r<=coeff_l2_7_r ;
+            coeff_14_r<=coeff_l3_7_r ;
             coeff_13_r<=coeff_l3_6_r ;
             coeff_12_r<=coeff_l3_5_r ;
             coeff_11_r<=coeff_l3_4_r ;
